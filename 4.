@@ -1,0 +1,2 @@
+print("random integers from -50 to 50")
+sample(-50:50)
