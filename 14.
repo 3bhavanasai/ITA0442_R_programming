@@ -1,0 +1,3 @@
+diabetes = read.csv(file="diabetes.csv", header=TRUE, sep=",")
+print("Content of the .csv file:")
+print(diabetes)
