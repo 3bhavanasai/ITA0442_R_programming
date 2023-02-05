@@ -12,4 +12,4 @@ hist(mtcars$hp,breaks=seq(from=50,to=350,by=5))
 #iv
 ggplot(mtcars, aes(x = hp, y = mpg, color = factor(cyl))) + geom_point() 
 + facet_wrap(~ vs) 
-
++ ggtitle("Horsepower and Mileage Scatter Plot by Engine Shape and Cylinder Size") + xlab("Horsepower (hp)") + ylab("Mileage (mpg)")
