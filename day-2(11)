@@ -1,4 +1,0 @@
-data=women
-factor(women$height)
-c=cut(women$height,3)
-table(c)
