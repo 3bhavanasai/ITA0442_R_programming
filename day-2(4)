@@ -1,3 +1,0 @@
-v1=array(seq(from=50,length.out=15,by=2),c(5,3))
-print("array: ")
-v1
